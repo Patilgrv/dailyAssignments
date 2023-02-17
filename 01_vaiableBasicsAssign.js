@@ -1,3 +1,4 @@
+console.log('--------partA---------');
 var birthYear = 1995
 var myName = "Gaurav"
 var isSingle = true
@@ -6,6 +7,7 @@ console.log('Year of birth: ',birthYear,'type:',typeof birthYear);
 console.log('My Name: ',myName,'type:',typeof myName);
 console.log('Relationship Status is single:',isSingle,'type:',typeof isSingle);
 
+console.log('--------partB---------');
 
 var newNull = null
 var iAmUndefined;
