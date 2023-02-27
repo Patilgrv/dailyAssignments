@@ -1,7 +1,7 @@
 /*Write a function voteEligibilty() with one arg--> age to check whether
 he or she is eligible for voting or not, then accordingly display msg on
 console, dont return the value please */
-
+console.log("____________part 1_______________");
 function voteEligibilty(age){
     if (age <= 0 || age > 100 || age == "undefined" || age == null)
     {console.log(`${age} is not a valid input, Please enter valid age`);}
@@ -26,7 +26,7 @@ voteEligibilty(null);
 
 /*2. Design a grade system wutg function bane as gradeCalculation wth arg marks and 
 and no return value*/
-
+console.log("____________part 2_______________");
 function gradeCalculation(marks) {
   if (marks <= 0 || marks > 100  || marks != marks || typeof marks == "string") {
     console.log(`${marks} invalid input, Please provide valid marks`);
