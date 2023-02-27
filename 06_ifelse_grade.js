@@ -1,28 +1,28 @@
-// /*Write a function voteEligibilty() with one arg--> age to check whether
-// he or she is eligible for voting or not, then accordingly display msg on
-// console, dont return the value please */
+/*Write a function voteEligibilty() with one arg--> age to check whether
+he or she is eligible for voting or not, then accordingly display msg on
+console, dont return the value please */
 
-// function voteEligibilty(age){
-//     if (age <= 0 || age > 100 || age == "undefined" || age == null)
-//     {console.log(`${age} is not a valid input, Please enter valid age`);}
+function voteEligibilty(age){
+    if (age <= 0 || age > 100 || age == "undefined" || age == null)
+    {console.log(`${age} is not a valid input, Please enter valid age`);}
 
-//     else if (age >= 18) {
-//     console.log(`Your age is ${age}, you are eligible for vote`);}
+    else if (age >= 18) {
+    console.log(`Your age is ${age}, you are eligible for vote`);}
 
-//    else {
-//     console.log(`Your age is ${age} hence you are not eligible for vote`); }
-// }
+   else {
+    console.log(`Your age is ${age} hence you are not eligible for vote`); }
+}
 
-// voteEligibilty(45);
-// voteEligibilty(17);
-// voteEligibilty(8);
-// voteEligibilty(20);
-// voteEligibilty(45);
-// voteEligibilty(200);
-// voteEligibilty(-10);
-// voteEligibilty(0);
-// voteEligibilty(undefined);
-// voteEligibilty(null);
+voteEligibilty(45);
+voteEligibilty(17);
+voteEligibilty(8);
+voteEligibilty(20);
+voteEligibilty(45);
+voteEligibilty(200);
+voteEligibilty(-10);
+voteEligibilty(0);
+voteEligibilty(undefined);
+voteEligibilty(null);
 
 /*2. Design a grade system wutg function bane as gradeCalculation wth arg marks and 
 and no return value*/
