@@ -28,7 +28,7 @@ voteEligibilty(null);
 and no return value*/
 console.log("____________part 2_______________");
 function gradeCalculation(marks) {
-  if (marks <= 0 || marks > 100  || marks != marks || typeof marks == "string") {
+  if (marks <= 0 || marks > 100  || isNaN(marks) || typeof marks == "string") {
     console.log(`${marks} invalid input, Please provide valid marks`);
   } else if (marks >= 90) {
     console.log(`Funtastic marks: ${marks}, Your grade is A+`);
