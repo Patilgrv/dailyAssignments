@@ -28,7 +28,7 @@
 and no return value*/
 
 function gradeCalculation(marks) {
-  if (marks <= 0 || marks > 100  || marks != marks) {
+  if (marks <= 0 || marks > 100  || marks != marks || typeof marks == "string") {
     console.log(`${marks} invalid input, Please provide valid marks`);
   } else if (marks >= 90) {
     console.log(`Funtastic marks: ${marks}, Your grade is A+`);
