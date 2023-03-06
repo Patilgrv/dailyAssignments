@@ -11,7 +11,8 @@ for (let index = 0; index < str.length; index++) {
     if (str.charAt(index)=="a"||str.charAt(index)=="o"||str.charAt(index)=="i"||str.charAt(index)=="e"||str.charAt(index)=="u")
     vovelCount = vovelCount + 1;   
 }
-console.log(`Given string is:[${strL}] and its vowel count are: ${vovelCount}`);
+console.log(`Given string is:[${strL}
+] and its vowel count are: ${vovelCount}`);
 }
 getVovels(statement1);
 getVovels(statement2);
